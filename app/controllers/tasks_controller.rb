@@ -39,6 +39,14 @@ class TasksController < ApplicationController
     respond_with(@task)
   end
 
+  def change
+    @task = Task.find(params[:id])
+    @task.update_attributes(state: params[:state])
+    respond_to do |format|
+      format.html {redirect_to tasks_path, notice: "Task Update"}
+    end
+  end
+
   private
     def set_task
       @task = Task.find(params[:id])
