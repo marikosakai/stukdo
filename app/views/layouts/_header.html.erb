@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default navbar-wrapper" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -8,14 +8,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <%= link_to "<i class='fa fa-sun-o'></i> TeaCup".html_safe, root_path, class: "navbar-brand" %>
+      <%= link_to "<i class='fa fa-sun-o'></i> TeaCup".html_safe, root_path, class: "navbar-brand navbar-text" %>
     </div>
  
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       
       
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right navbar-text">
       <% if current_user %>
         <li><%= link_to "My Tasks", tasks_path %></li>
         <li><%= link_to "Settings", edit_user_registration_path %></li>
