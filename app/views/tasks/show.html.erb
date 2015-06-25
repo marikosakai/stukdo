@@ -1,14 +1,21 @@
-<p id="notice"><%= notice %></p>
+<div class="task-background">
+  <p id="notice"><%= notice %></p>
+  <div class="font-styling font-size: 50px ">
+    <p>
+      <div class="show-title"><strong>Content</strong></div>
+      <br/>
+      <div class="font-size: 300"><%= @task.content %></div>
+    </p>
 
-<p>
-  <strong>Content:</strong>
-  <%= @task.content %>
-</p>
+    <br/>
 
-<p>
-  <strong>State:</strong>
-  <%= @task.state %>
-</p>
+    <p>
+      <div class="show-title"><strong>State</strong></div>
+      <br/>
+      <div class="font-size: 300"><%= @task.state %></div>
+    </p>
+  </div>
 
-<%= link_to 'Edit', edit_task_path(@task) %> |
-<%= link_to 'Back', tasks_path %>
+  <%= link_to 'Edit', edit_task_path(@task) %> |
+  <%= link_to 'Back', tasks_path %>
+</div>

@@ -17,6 +17,52 @@ body {
   justify-content: center;
 }
 
+.hero-about {
+	// background-image:image-url("bookman.jpg");
+	// background-color: #F7F7F7;
+	// background-color: #FCF1F3;
+	// background-color: #F3F3F3;
+	background-color: #ECF0F1;
+	background-size:cover;
+	height:726px;
+	opacity: .95;
+	display: flex;
+	display: -webkit-flex;
+	padding-top: 50px;
+}
+
+.hero-sign-up {
+	// background-image:image-url("bookman.jpg");
+	// background-color: #F7F7F7;
+	// background-color: #FCF1F3;
+	// background-color: #F3F3F3;
+	background-color: #ECF0F1;
+	background-size:cover;
+	height:726px;
+	opacity: .95;
+	display: flex;
+	display: -webkit-flex;
+}
+
+.task-background {
+	// background-color: #0041B2;
+	background-color: #34495E;
+	background-size: cover;
+	height:726px;
+}
+
+.task-content {
+	color: #FFF;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 500;
+}
+
+.new-task-btn{
+	position: relative;
+	text-align: center;
+	width: 15%;
+	padding-right: 50px;
+}
 
 .hero-rm-padding {
   padding-left: 0px;
@@ -30,14 +76,18 @@ body {
 
 .home-title {
   color:#ee7600;
-  font-family: "Roboto" sans-serif;
+  font-family: "Ubuntu" sans-serif;
   font-size: 60px;
 }
 
 .home-desc {
-  color:#ee7600;
-  font-family: "Roboto" sans-serif;
-  font-size: 30px;	
+  color:#F8F8F8;
+  font-family: "Ubuntu" sans-serif;
+  font-size: 30px;
+}
+
+.show-title {
+	color: #FFF;
 }
 
 // Teacup Button
@@ -46,49 +96,50 @@ body {
 	width: 200px;
 	top: -400px;
 }
- 
-.btn-teacup { 
-  color: #ffffff; 
-  background-color: #005DFF; 
-  border-color: #053994; 
-} 
- 
-.btn-teacup:hover, 
-.btn-teacup:focus, 
-.btn-teacup:active, 
-.btn-teacup.active, 
-.open .dropdown-toggle.btn-teacup { 
-  color: #ffffff; 
-  background-color: #0B55D6; 
-  border-color: #053994; 
-} 
- 
-.btn-teacup:active, 
-.btn-teacup.active, 
-.open .dropdown-toggle.btn-teacup { 
-  background-image: none; 
-} 
- 
-.btn-teacup.disabled, 
-.btn-teacup[disabled], 
-fieldset[disabled] .btn-teacup, 
-.btn-teacup.disabled:hover, 
-.btn-teacup[disabled]:hover, 
-fieldset[disabled] .btn-teacup:hover, 
-.btn-teacup.disabled:focus, 
-.btn-teacup[disabled]:focus, 
-fieldset[disabled] .btn-teacup:focus, 
-.btn-teacup.disabled:active, 
-.btn-teacup[disabled]:active, 
-fieldset[disabled] .btn-teacup:active, 
-.btn-teacup.disabled.active, 
-.btn-teacup[disabled].active, 
-fieldset[disabled] .btn-teacup.active { 
-  background-color: #005DFF; 
-  border-color: #053994; 
-} 
- 
-.btn-teacup .badge { 
-  color: #005DFF; 
-  background-color: #ffffff; 
+
+.btn-teacup {
+  color: #ffffff;
+  background-color: #005DFF;
+  border-color: #053994;
+	font-family:'Ubuntu', sans-serif;
+}
+
+.btn-teacup:hover,
+.btn-teacup:focus,
+.btn-teacup:active,
+.btn-teacup.active,
+.open .dropdown-toggle.btn-teacup {
+  color: #ffffff;
+  background-color: #0B55D6;
+  border-color: #053994;
+}
+
+.btn-teacup:active,
+.btn-teacup.active,
+.open .dropdown-toggle.btn-teacup {
+  background-image: none;
+}
+
+.btn-teacup.disabled,
+.btn-teacup[disabled],
+fieldset[disabled] .btn-teacup,
+.btn-teacup.disabled:hover,
+.btn-teacup[disabled]:hover,
+fieldset[disabled] .btn-teacup:hover,
+.btn-teacup.disabled:focus,
+.btn-teacup[disabled]:focus,
+fieldset[disabled] .btn-teacup:focus,
+.btn-teacup.disabled:active,
+.btn-teacup[disabled]:active,
+fieldset[disabled] .btn-teacup:active,
+.btn-teacup.disabled.active,
+.btn-teacup[disabled].active,
+fieldset[disabled] .btn-teacup.active {
+  background-color: #005DFF;
+  border-color: #053994;
+}
+
+.btn-teacup .badge {
+  color: #005DFF;
+  background-color: #ffffff;
 }

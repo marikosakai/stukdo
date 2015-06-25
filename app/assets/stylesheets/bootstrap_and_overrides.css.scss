@@ -6,17 +6,23 @@
   =require twitter-bootstrap-static/fontawesome
   */
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,900,300,100);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300italic,100italic,400italic,500italic,300,500,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 
   .navbar-text {
   	margin: 0 0;
-  	color: #F8F8F8 !important;
+  	color: #000000 !important;
+  	font-size: 18px;
+    font-weight: 500;
   }
 
   .navbar-default .navbar-nav {
   > li {
     > a {
-      color: #F8F8F8;
+      color: #000000;
      }
    }
  }
@@ -24,14 +30,65 @@
   .navbar-wrapper {
   	margin-bottom: 0px;
   	border-radius: 0px;
-  	background-color: #FFAD00;
-  	border-color: #FFAD00;
+  	// background-color: #FFAD00;
+    background-color: #F1C40F;
+  	border-color: #F1C40F;
+    font-family:'Ubuntu', sans-serif;
 
   	li {
   		a {
-  		  font-family:'Roboto', sans-serif;
-		  font-color: #696969;
+  		font-family:'Ubuntu', sans-serif;
+		  color: #696969;
   		}
   	}
 
+  }
+
+  .navbar-icon {
+    padding-top: 13px;
+  }
+
+  .content-header-style {
+    font-family: 'Ubuntu' sans-serif;
+    color: #000000;
+    padding-left: 30px;
+    font-weight: 700;
+  }
+
+  .content-desc-style {
+    font-family: 'Ubuntu' sans-serif;
+    // color: #565a5c;
+    color: #808080;
+    padding-left: 30px;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+  }
+
+  .content-body-style {
+    font-family: 'Ubuntu' sans-serif;
+    color: #000000;
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .font-styling {
+    font-family: 'Ubuntu' sans-serif;
+    color: #000000;
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .link-font {
+    font-family: 'Ubuntu' sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .link-container {
+    padding: 10px 10px 10px 60px;
+    margin: 10px 10px 10px 10px;
   }

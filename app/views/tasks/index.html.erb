@@ -1,14 +1,39 @@
-<div class="row">
-  <div class="col-md-4"><h1 class="text-center">To Do</h1>
-    <%= render @to_do %>
+<div class="task-background">
+  <div class="row">
+    <br/>
+    <br/>
   </div>
-  <div class="col-md-4"><h1 class="text-center">Doing</h1>
-    <%= render @doing %>
-  </div>
-  <div class="col-md-4"><h1 class="text-center">Done</h1>
-    <%= render @done %>
-  </div>
-</div>
-<br>
 
-<%= link_to 'New Task', new_task_path %>
+  <div class="row">
+    <div class="col-md-4">
+    </div>
+
+    <div class="col-md-4">
+    </div>
+
+    <div class="col-md-4 new-task-btn pull-right"><%= button_to '+ New Task', new_task_path, class: "btn btn-teacup btn-block", method: 'get' %>
+    </div>
+  </div>
+
+  <div class="row">
+    <br/>
+  </div>
+
+  <div class="row">
+    <div class="text-center task-content">
+      <div class="col-md-4 col-sm-4"><h1>To Do</h1>
+        <%= render @to_do %>
+      </div>
+      <div class="col-md-4 col-sm-4"><h1>Doing</h1>
+        <%= render @doing %>
+      </div>
+      <div class="col-md-4 col-sm-4"><h1>Done</h1>
+        <%= render @done %>
+      </div>
+    </div>
+  </div>
+  <br>
+
+
+
+</div>
