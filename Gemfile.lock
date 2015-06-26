@@ -192,6 +192,7 @@ DEPENDENCIES
   sdoc (~> 0.4.0)
   simple_form
   spring
+  sprockets (~> 2.0)
   sqlite3
   therubyracer
   turbolinks
