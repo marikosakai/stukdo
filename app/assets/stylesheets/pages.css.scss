@@ -22,6 +22,7 @@ body {
 	// background-color: #F7F7F7;
 	// background-color: #FCF1F3;
 	// background-color: #F3F3F3;
+	// background-color: #BDC3C7;
 	background-color: #ECF0F1;
 	background-size:cover;
 	height:726px;
@@ -46,13 +47,23 @@ body {
 
 .task-background {
 	// background-color: #0041B2;
-	background-color: #34495E;
+	// background-color: #34495E;
+	background-color: #ECF0F1;
 	background-size: cover;
 	height:726px;
 }
 
+.show-task-background {
+	// background-color: #0041B2;
+	// background-color: #34495E;
+	background-color: #ECF0F1;
+	background-size: cover;
+	height:726px;
+	padding-top: 10px;
+}
+
 .task-content {
-	color: #FFF;
+	color: #E67E22;
 	font-family: "Ubuntu", sans-serif;
 	font-weight: 500;
 }
@@ -75,9 +86,10 @@ body {
 }
 
 .home-title {
-  color:#ee7600;
+  // color:#ee7600;
+	color: #FFF;
   font-family: "Ubuntu" sans-serif;
-  font-size: 60px;
+  font-size: 100px;
 }
 
 .home-desc {
@@ -88,6 +100,11 @@ body {
 
 .show-title {
 	color: #FFF;
+}
+
+.edit-cancel-align {
+	padding-left: 90px;
+	padding-top: 30px;
 }
 
 // Teacup Button

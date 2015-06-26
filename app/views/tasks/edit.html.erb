@@ -1,6 +1,46 @@
-<h1 class= "text-center">Editing task</h1>
+<div class="show-task-background">
+  <h1 class= "text-center">Edit task</h1>
 
-<%= render 'form' %>
+  <%= render 'form' %>
+  <div class="row">
+    <div class="col-md-4">
+    </div>
 
-<%= link_to 'Show', @task %> |
-<%= link_to 'Back', tasks_path %>
+    <div class="col-md-4 flex-container">
+      <div style="float: left; width: 150px">
+        <%= button_to 'Show', task_path, class: "btn btn-teacup btn-block", method: 'get' %>
+      </div>
+      <div style="float: right; width: 150px">
+        <%= button_to 'Back', tasks_path, class: "btn btn-teacup btn-block", method: 'get' %>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+    </div>
+  </div>
+</div>
+
+
+<!-- <div class="col-md-4">
+  <div style= "width: 100%; align-items: center; padding-left: 570px">
+    <div style="float: left; width: 100px">
+      <%= button_to 'Show', task_path, class: "btn btn-teacup btn-block", method: 'get' %>
+    </div>
+    <div style="float: right; width: 100px"
+      <%= button_to 'Back', tasks_path, class: "btn btn-teacup btn-block", method: 'get' %>
+    </div>
+  </div>
+</div> -->
+
+
+<!-- <div class="show-task-background flex-container">
+  <h1 class= "text-center">Edit task</h1>
+
+  <%= render 'form' %>
+  <div class="button-container">
+
+        <div class="width: 100px"><%= button_to 'Show', task_path, class: "btn btn-teacup", method: 'get' %></div>
+        <div class="width: 100px"><%= button_to 'Back', tasks_path, class: "btn btn-teacup", method: 'get' %></div>
+
+  </div>
+</div> -->
